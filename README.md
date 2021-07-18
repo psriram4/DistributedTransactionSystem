@@ -8,8 +8,10 @@ Within any distributed system, it is often difficult to address the "consensus" 
 To run this program,
 
 ```
-go build node.go
+go build client.go
 go build server.go
+go run client.go
+go run server.go {server-name} {server-config}
 ```
 
 # Acknowledgement
